@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>793A74B0-D9EA-4FB7-BD06-3FA95CCF4690</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ObjCTrainerApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E32009D0-B0B5-4F6A-9B4A-066C74BC055C</key>
+		<string>https://github.com/shareyoruba/ObjectiveCTrainerApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ObjCTrainerApp/ObjCTrainerApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E32009D0-B0B5-4F6A-9B4A-066C74BC055C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shareyoruba/ObjectiveCTrainerApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E32009D0-B0B5-4F6A-9B4A-066C74BC055C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E32009D0-B0B5-4F6A-9B4A-066C74BC055C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ObjectiveCTrainerApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
