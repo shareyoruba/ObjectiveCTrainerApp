@@ -14,3 +14,13 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+//added property of int type called screenType to MenuItem.h Class then used as enum
+
+enum ScreenType{
+    ScreenTypeQuestions,
+    ScreenTypeStats,
+    ScreenTypeAbout,
+    ScreenTypeRemoveAds
+    
+};

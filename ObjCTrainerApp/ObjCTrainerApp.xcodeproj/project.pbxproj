@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3169F4811939C5A2009977FB /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3169F4801939C5A2009977FB /* MenuItem.m */; };
 		317A194F1939BAE200D19BC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317A194E1939BAE200D19BC3 /* Foundation.framework */; };
 		317A19511939BAE200D19BC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317A19501939BAE200D19BC3 /* CoreGraphics.framework */; };
 		317A19531939BAE200D19BC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317A19521939BAE200D19BC3 /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3169F47F1939C5A2009977FB /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		3169F4801939C5A2009977FB /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
 		317A194B1939BAE200D19BC3 /* ObjCTrainerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCTrainerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317A194E1939BAE200D19BC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		317A19501939BAE200D19BC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -217,6 +220,8 @@
 				317A19941939BE1000D19BC3 /* MenuViewController.m */,
 				317A19961939BE2700D19BC3 /* Menu.h */,
 				317A19971939BE2700D19BC3 /* Menu.m */,
+				3169F47F1939C5A2009977FB /* MenuItem.h */,
+				3169F4801939C5A2009977FB /* MenuItem.m */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				317A19921939BDEA00D19BC3 /* Question.m in Sources */,
 				317A19A11939BF0300D19BC3 /* AboutViewController.m in Sources */,
 				317A198F1939BDCA00D19BC3 /* QuestionViewController.m in Sources */,
+				3169F4811939C5A2009977FB /* MenuItem.m in Sources */,
 				317A198C1939BD7E00D19BC3 /* SWRevealViewController.m in Sources */,
 				317A199E1939BE8500D19BC3 /* StatsViewController.m in Sources */,
 			);
@@ -560,6 +566,7 @@
 				317A197F1939BAE200D19BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		317A19801939BAE200D19BC3 /* Build configuration list for PBXNativeTarget "ObjCTrainerAppTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +575,7 @@
 				317A19821939BAE200D19BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
