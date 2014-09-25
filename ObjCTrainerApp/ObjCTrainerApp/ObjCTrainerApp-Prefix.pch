@@ -17,10 +17,26 @@
 
 //added property of int type called screenType to MenuItem.h Class then used as enum
 
-enum ScreenType{
+typedef enum ScreenType{
     ScreenTypeQuestions,
     ScreenTypeStats,
     ScreenTypeAbout,
     ScreenTypeRemoveAds
     
-};
+}MenuItemScreenType;//used as class types in menuItem
+
+//define a new enumeration for question types as a type by using type def enum
+typedef enum QuestionType{
+    QuestionTypeMC,
+    QuestionTypeBlank,
+    QuestionTypeImage
+    
+} QuizQuestionType; //used as class types in question class
+
+
+typedef enum QuestionDifficulty{
+    QuestionDifficultyEasy,
+    QuestionDifficultyMedium,
+    QuestionDifficultyHard
+    
+}QuizQuestionDifficulty;//used as class types

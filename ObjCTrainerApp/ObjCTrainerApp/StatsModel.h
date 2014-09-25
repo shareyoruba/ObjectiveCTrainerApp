@@ -1,5 +1,5 @@
 //
-//  Menu.h
+//  Stats.h
 //  ObjCTrainerApp
 //
 //  Created by Mikaila Akeredolu on 5/31/14.
@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Menu : NSObject
-
-- (NSArray *)getMenuItems;
+@interface StatsModel : NSObject
 
 @end

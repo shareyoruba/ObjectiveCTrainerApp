@@ -8,16 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "MenuItem.h"
-#import "Menu.h"
+#import "MenuModel.h"
 
-
+//comform to tableview delegate/protocol
 @interface MenuViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 
 //create properties for Menu classs
-@property (strong,nonatomic) Menu * model;
-@property (strong,nonatomic) NSArray *mItems;
+@property (strong,nonatomic) MenuModel * model;
 
-//connect tableview as outlet
+@property (strong,nonatomic) NSArray *mItems; //aka - menuItems
+
+//connect tableview as outlet via storyboard
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 

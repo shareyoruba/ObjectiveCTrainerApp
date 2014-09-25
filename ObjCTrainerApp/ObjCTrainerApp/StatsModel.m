@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Mikaila Akeredolu. All rights reserved.
 //
 
-#import "Stats.h"
+#import "StatsModel.h"
 
-@implementation Stats
+@implementation StatsModel
 
 @end

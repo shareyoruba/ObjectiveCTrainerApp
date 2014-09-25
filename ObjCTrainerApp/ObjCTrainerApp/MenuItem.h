@@ -8,10 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MenuItem : NSObject
+@interface MenuItem : NSObject //class for menu items such as tiltle and icons
 
 @property (strong,nonatomic) NSString *menuTitle;
 @property (strong,nonatomic) NSString *menuIcon;
-@property (nonatomic) int screenType;
+
+//@property (nonatomic) int screenType;
+
+@property (nonatomic) MenuItemScreenType screenType;
+
+// MenuItemScreenType created from enumeration type in prefix.pch file
 
 @end

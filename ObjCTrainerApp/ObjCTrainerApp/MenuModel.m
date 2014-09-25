@@ -6,10 +6,12 @@
 //  Copyright (c) 2014 Mikaila Akeredolu. All rights reserved.
 //
 
-#import "Menu.h"
-#import "MenuItem.h" //import MenuItem to use the class below
+#import "MenuModel.h"
+#import "MenuItem.h" //import MenuItem to use the class menuitem to create objects of type menu item
 
-@implementation Menu
+@implementation MenuModel
+
+//implementation of menuItems method
 - (NSArray *)getMenuItems{
     
     //create an nsmutable array
@@ -21,7 +23,7 @@
     item1.menuTitle = @"Easy Questions";
     item1.screenType = ScreenTypeQuestions; //under enum
     //add to array
-    [menuItemArray addObject:item1];
+    [menuItemArray addObject:item1]; //add to menuitemarray
     
     MenuItem *item2 = [[MenuItem alloc]init];
     item2.menuTitle = @"Medium Questions";
@@ -49,7 +51,7 @@
     [menuItemArray addObject:item6];
 
 
-    
+    // NSMutableArray *menuItemArray = [[NSMutableArray alloc]init];
     return menuItemArray;
 
     

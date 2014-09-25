@@ -7,7 +7,7 @@
 //
 
 #import "MenuViewController.h"
-#import "SWRevealViewController.h"
+#import "SWRevealViewController.h" //import to use in prepare for segue
 
 
 @interface MenuViewController ()
@@ -28,15 +28,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     // set self as data source and delegate for the tableview
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-//fetch the menu items by using the nssarray method getmenuitems from menuVC.h class
+//fetch the menu items by using the nssarray method getmenuitems from menumodel class
     
-    //@property (strong,nonatomic) NSArray *mItems;
-    self.mItems = [[[Menu alloc]init]getMenuItems]; //returns list of mitems array
+    //@property (strong,nonatomic) NSArray *mItems; from menu view controller class
+    
+    self.mItems = [[[MenuModel alloc]init]getMenuItems]; //returns the whole list of mitems array
     
     
 }
@@ -60,28 +62,31 @@
 
 #pragma mark - Table view delegate methods
 
+//must implement number of rows in section
 -(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return self.mItems.count; //retun menuItems aary
+    return self.mItems.count; //retun menuItems array to reflect # of rows
 }
 
+//must implement menu items that corrsponds to row selected
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     //retrieve cell
     NSString *cellIdentifier = @"MenuItemCell";
     
+    //create a table cell that can be reused 
     UITableViewCell *menuCell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
-    //get menu item that it is asking for
+    //get menu item that corresponds to row via index
     MenuItem *item = self.mItems[indexPath.row];
     
     //set menu item text and icon with properties
     menuCell.textLabel.text = item.menuTitle; //menuTitle = property of MenuItem Class
     
-    return menuCell;
+    return menuCell; //-(UITableViewCell *)
 }
 
-//when user taps on menu item, check which item was tapped!
+//when user taps on menu item, check which item was tapped and open detailviewcontroller!
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -123,10 +128,13 @@
     //check what type of segue and do something specific
     //call the method setfront view controller on the revealVC and set it to the destination VC of wherever that segue is connected to via storyboard
     
+    //set the front view of the reveal view controller to the destination view controller
     [self.revealViewController setFrontViewController:segue.destinationViewController];
     
-    //slide the front view controller back into place
+    //slide the front view controller back into place automatically
     [self.revealViewController revealToggleAnimated:YES];
+    
+    //method from revealviewcontroller project = revealToggleAnimated:YES
 }
 
 @end

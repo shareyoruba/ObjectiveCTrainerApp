@@ -29,7 +29,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    //add gesture recorgnizer
+    //add gesture recorgnizer so that you can slide back and forward from destination vc
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
 }

@@ -23,13 +23,14 @@
 		317A197A1939BAE200D19BC3 /* ObjCTrainerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A19791939BAE200D19BC3 /* ObjCTrainerAppTests.m */; };
 		317A198C1939BD7E00D19BC3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A198B1939BD7E00D19BC3 /* SWRevealViewController.m */; };
 		317A198F1939BDCA00D19BC3 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A198E1939BDCA00D19BC3 /* QuestionViewController.m */; };
-		317A19921939BDEA00D19BC3 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A19911939BDEA00D19BC3 /* Question.m */; };
+		317A19921939BDEA00D19BC3 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A19911939BDEA00D19BC3 /* QuestionModel.m */; };
 		317A19951939BE1000D19BC3 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A19941939BE1000D19BC3 /* MenuViewController.m */; };
-		317A19981939BE2700D19BC3 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A19971939BE2700D19BC3 /* Menu.m */; };
+		317A19981939BE2700D19BC3 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A19971939BE2700D19BC3 /* MenuModel.m */; };
 		317A199B1939BE5100D19BC3 /* RemoveAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A199A1939BE5100D19BC3 /* RemoveAdsViewController.m */; };
 		317A199E1939BE8500D19BC3 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A199D1939BE8500D19BC3 /* StatsViewController.m */; };
 		317A19A11939BF0300D19BC3 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A19A01939BF0300D19BC3 /* AboutViewController.m */; };
-		317A19A41939BF2B00D19BC3 /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A19A31939BF2B00D19BC3 /* Stats.m */; };
+		317A19A41939BF2B00D19BC3 /* StatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A19A31939BF2B00D19BC3 /* StatsModel.m */; };
+		31B12B8519491793002EC5D7 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B12B8419491793002EC5D7 /* Question.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,20 +67,22 @@
 		317A198B1939BD7E00D19BC3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		317A198D1939BDCA00D19BC3 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
 		317A198E1939BDCA00D19BC3 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
-		317A19901939BDEA00D19BC3 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
-		317A19911939BDEA00D19BC3 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		317A19901939BDEA00D19BC3 /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
+		317A19911939BDEA00D19BC3 /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
 		317A19931939BE1000D19BC3 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		317A19941939BE1000D19BC3 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		317A19961939BE2700D19BC3 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
-		317A19971939BE2700D19BC3 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		317A19961939BE2700D19BC3 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuModel.h; sourceTree = "<group>"; };
+		317A19971939BE2700D19BC3 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuModel.m; sourceTree = "<group>"; };
 		317A19991939BE5100D19BC3 /* RemoveAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveAdsViewController.h; sourceTree = "<group>"; };
 		317A199A1939BE5100D19BC3 /* RemoveAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveAdsViewController.m; sourceTree = "<group>"; };
 		317A199C1939BE8500D19BC3 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
 		317A199D1939BE8500D19BC3 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
 		317A199F1939BF0300D19BC3 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		317A19A01939BF0300D19BC3 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		317A19A21939BF2B00D19BC3 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
-		317A19A31939BF2B00D19BC3 /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; };
+		317A19A21939BF2B00D19BC3 /* StatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsModel.h; sourceTree = "<group>"; };
+		317A19A31939BF2B00D19BC3 /* StatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsModel.m; sourceTree = "<group>"; };
+		31B12B8319491793002EC5D7 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		31B12B8419491793002EC5D7 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,8 +201,10 @@
 			children = (
 				317A198D1939BDCA00D19BC3 /* QuestionViewController.h */,
 				317A198E1939BDCA00D19BC3 /* QuestionViewController.m */,
-				317A19901939BDEA00D19BC3 /* Question.h */,
-				317A19911939BDEA00D19BC3 /* Question.m */,
+				317A19901939BDEA00D19BC3 /* QuestionModel.h */,
+				317A19911939BDEA00D19BC3 /* QuestionModel.m */,
+				31B12B8319491793002EC5D7 /* Question.h */,
+				31B12B8419491793002EC5D7 /* Question.m */,
 			);
 			name = Question;
 			sourceTree = "<group>";
@@ -218,8 +223,8 @@
 			children = (
 				317A19931939BE1000D19BC3 /* MenuViewController.h */,
 				317A19941939BE1000D19BC3 /* MenuViewController.m */,
-				317A19961939BE2700D19BC3 /* Menu.h */,
-				317A19971939BE2700D19BC3 /* Menu.m */,
+				317A19961939BE2700D19BC3 /* MenuModel.h */,
+				317A19971939BE2700D19BC3 /* MenuModel.m */,
 				3169F47F1939C5A2009977FB /* MenuItem.h */,
 				3169F4801939C5A2009977FB /* MenuItem.m */,
 			);
@@ -240,8 +245,8 @@
 			children = (
 				317A199C1939BE8500D19BC3 /* StatsViewController.h */,
 				317A199D1939BE8500D19BC3 /* StatsViewController.m */,
-				317A19A21939BF2B00D19BC3 /* Stats.h */,
-				317A19A31939BF2B00D19BC3 /* Stats.m */,
+				317A19A21939BF2B00D19BC3 /* StatsModel.h */,
+				317A19A31939BF2B00D19BC3 /* StatsModel.m */,
 			);
 			name = Stats;
 			sourceTree = "<group>";
@@ -352,11 +357,12 @@
 			files = (
 				317A195F1939BAE200D19BC3 /* AppDelegate.m in Sources */,
 				317A199B1939BE5100D19BC3 /* RemoveAdsViewController.m in Sources */,
-				317A19A41939BF2B00D19BC3 /* Stats.m in Sources */,
-				317A19981939BE2700D19BC3 /* Menu.m in Sources */,
+				317A19A41939BF2B00D19BC3 /* StatsModel.m in Sources */,
+				317A19981939BE2700D19BC3 /* MenuModel.m in Sources */,
 				317A19951939BE1000D19BC3 /* MenuViewController.m in Sources */,
+				31B12B8519491793002EC5D7 /* Question.m in Sources */,
 				317A195B1939BAE200D19BC3 /* main.m in Sources */,
-				317A19921939BDEA00D19BC3 /* Question.m in Sources */,
+				317A19921939BDEA00D19BC3 /* QuestionModel.m in Sources */,
 				317A19A11939BF0300D19BC3 /* AboutViewController.m in Sources */,
 				317A198F1939BDCA00D19BC3 /* QuestionViewController.m in Sources */,
 				3169F4811939C5A2009977FB /* MenuItem.m in Sources */,
